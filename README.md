@@ -1,1 +1,1 @@
-AnatolySimka.github.io/main.html
+main.html
