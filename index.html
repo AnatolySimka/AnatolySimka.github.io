@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My site</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Моя кошачья страница</h1>
+    </header>
+    <main>
+      <h2>СИМКА - ОТЛИЧНЫЙ КОТ!</h2>
+      <h3>ЭТО НЕСОМНЕННО ТАК</h3>
+      <table border="0">
+            <td><img src ="vera.jpg"></td>
+      </table>
+      <p></p>
+<form id="demo"></form>
+      <p></p>
+<script>
+document.getElementById("demo").innerHTML = "МОЯ МАЛЕНЬКАЯ ЗАДАЧА";
+</script>
+  <form>
+    <input type="button" value="ВЫКЛ." onclick="dawn(this)">
+    <p></p>
+      <script>
+        function dawn(input)
+        {input.value = input.value != 'ВЫКЛ.' ? 'ВЫКЛ.' : 'ВКЛ.'
+        e = input.value}
+        function up(input)
+        {input.value = input.value != 'КОТ' ? 'КОТ' : 'СОБАКА'
+        d = input.value}
+        function fido(input)
+        {input.value = input.value != 'FIDO' ? 'FIDO' : 'RUDI'
+        c = input.value}
+        function njam(input)
+        {input.value = input.value != 'СЪЕЛ' ? 'СЪЕЛ' : 'НЕ СЪЕЛ'
+        b = input.value}
+        function food(input)
+        {input.value = input.value != 'КОЛБАСУ' ? 'КОЛБАСУ' : 'СЫР'
+        a = input.value}
+        function itog(input)
+        {if (a == 'КОЛБАСУ' && b == 'СЪЕЛ' && c == 'FIDO' && d == 'КОТ' && e == 'ВКЛ.')
+        {document.getElementById("smotri").innerHTML = 'ПРАВИЛЬНО!',
+        document.getElementById("demo").innerHTML = 'ЗАДАЧА РЕШЕНА!'}
+        else if (e == "ВЫКЛ.")
+        {document.getElementById("smotri").innerHTML = 'ВКЛЮЧИ МЕНЯ!',
+        document.getElementById("demo").innerHTML = 'ВКЛЮЧИ КНОПКУ ВКЛ.!'}
+        else document.getElementById("smotri").innerHTML = 'КОШМАР!!!',
+        document.getElementById("demo").innerHTML = 'НЕВЕРНОЕ РЕШЕНИЕ'}
+      </script>
+    </form>
+        <form><input type="button" id="kot" value="КОТ" onclick="up(this)"></form>
+        <form><input type="button" value="FIDO" onclick="fido(this)"></form>
+        <form><input type="button" value="НЕ СЪЕЛ" onclick="njam(this)"></form>
+        <form><input type="button" value="СЫР" onclick="food(this)"><input type="button" value="РЕЗУЛЬТАТ" onclick="itog(this)"></form>
+    </main>
+    <section id="smotri">тут будет ваш ответ</section>
+    <p></p>
+    <iframe width="713" height="400" src="kot.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </body>
+</html>
