@@ -31,10 +31,10 @@ document.getElementById("demo").innerHTML = "МОЯ МАЛЕНЬКАЯ ЗАДА�
         {input.value = input.value != 'ВЫКЛ.' ? 'ВЫКЛ.' : 'ВКЛ.'
         e = input.value}
         function up(input)
-        {input.value = input.value != 'КОТ' ? 'КОТ' : 'СОБАКА'
+        {input.value = input.value != 'СОБАКА' ? 'СОБАКА' : 'КОТ'
         d = input.value}
         function fido(input)
-        {input.value = input.value != 'FIDO' ? 'FIDO' : 'RUDI'
+        {input.value = input.value != 'RUDI' ? 'RUDI' : 'FIDO'
         c = input.value}
         function njam(input)
         {input.value = input.value != 'СЪЕЛ' ? 'СЪЕЛ' : 'НЕ СЪЕЛ'
@@ -54,8 +54,8 @@ document.getElementById("demo").innerHTML = "МОЯ МАЛЕНЬКАЯ ЗАДА�
         document.getElementById("demo").innerHTML = 'НЕВЕРНОЕ РЕШЕНИЕ'}
       </script>
     </form>
-        <form><input type="button" id="kot" value="КОТ" onclick="up(this)"></form>
-        <form><input type="button" value="FIDO" onclick="fido(this)"></form>
+        <form><input type="button" id="kot" value="СОБАКА" onclick="up(this)"></form>
+        <form><input type="button" value="RUDI" onclick="fido(this)"></form>
         <form><input type="button" value="НЕ СЪЕЛ" onclick="njam(this)"></form>
         <form><input type="button" value="СЫР" onclick="food(this)"> <input type="button" value="РЕЗУЛЬТАТ" onclick="itog(this), playPause()"></form>
     </main>
