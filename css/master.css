@@ -29,7 +29,7 @@ section > img {
 body > table > td {
   background: #aac;
 }
-secton > input {
+form input {
   background: #000000;
   border: 3px solid #0F0;
   height:36px;width:136px;
@@ -43,7 +43,7 @@ section {
   font-variant:
   font-weight: bold;
 }
-input {
+button {
   background: #00F;
   border: 3px solid #0F0;
   height:36px;width:136px;
