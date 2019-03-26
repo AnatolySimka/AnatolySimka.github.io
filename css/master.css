@@ -43,7 +43,7 @@ section {
   font-variant:
   font-weight: bold;
 }
-form > input {
+input {
   background: #00F;
   border: 3px solid #0F0;
   height:36px;width:136px;
