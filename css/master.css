@@ -50,8 +50,8 @@ form {
   font-variant:
   font-weight: bold;
 }
-dev > input {
-  background: #0F0;
+form > input {
+  background: #00F;
   border: 3px solid #0F0;
   height:36px;width:136px;
   color: #FFF;
